@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zz"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Calculate3Z07">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Page"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        android:textSize="31dp"
+        android:layout_marginTop="31dp"/>
+    <ImageView
+        android:id="@+id/ImVw3Z07"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/az"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/Model3Z07"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Car Model Between (2003-2017)"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="156dp" />
+    <EditText
+        android:id="@+id/Service3Z07"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="Service Per Week (1-3)"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="242dp" />
+    <Button
+        android:id="@+id/btnCalculate3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="363dp" />
+    <Button
+        android:id="@+id/btnClear307"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+    <Button
+        android:id="@+id/Return3Z07"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+</LinearLayout>

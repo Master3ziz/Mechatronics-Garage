@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/zz"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="242dp"
+        android:background="#00F44336"
+        app:srcCompat="@drawable/az"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="236dp" />
+    <EditText
+        android:id="@+id/USNam3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="157dp" />
+    <EditText
+        android:id="@+id/Pass3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="74dp" />
+    <Button
+        android:id="@+id/btnLog3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="249dp" />
+    <Button
+        android:id="@+id/btnRegs3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="319dp" />
+</LinearLayout>

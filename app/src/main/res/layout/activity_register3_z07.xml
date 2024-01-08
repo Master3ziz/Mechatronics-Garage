@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zz"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register3Z07">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="242dp"
+        android:background="#00F44336"
+        app:srcCompat="@drawable/az"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="236dp" />
+    <EditText
+        android:id="@+id/Nam3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="135dp" />
+    <EditText
+        android:id="@+id/NwPass3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="New Password"
+        android:textStyle="bold"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="196dp" />
+    <Button
+        android:id="@+id/CrAcnt3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="347dp" />
+</LinearLayout>

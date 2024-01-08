@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zz"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/CAMn3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="Car Maintenance"
+        android:textColor="@color/black"
+        android:textSize="31dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp" />
+    <ImageView
+        android:id="@+id/ImVw3Z07"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/az" />
+    <TextView
+        android:id="@+id/CDt3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Details"
+        android:textColor="@color/black"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="148dp" />
+    <EditText
+        android:id="@+id/CN3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Customer Name"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="179dp" />
+    <EditText
+        android:id="@+id/CAg3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Customer Phone Number"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="234dp" />
+    <EditText
+        android:id="@+id/CRM3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Car Model"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="302dp" />
+    <EditText
+        android:id="@+id/EP3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Car's Engine Power"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="354dp" />
+    <Button
+        android:id="@+id/Add3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="#FFFFFF"
+        android:text="Add"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="426dp" />
+    <Button
+        android:id="@+id/Update3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="426dp" />
+    <Button
+        android:id="@+id/View3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="507dp" />
+    <Button
+        android:id="@+id/Delete3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="511dp" />
+    <Button
+        android:id="@+id/Clear3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="620dp" />
+    <Button
+        android:id="@+id/Calculate3Z07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Page"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="360dp" />
+</LinearLayout>
